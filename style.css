@@ -1559,7 +1559,14 @@ button[type=submit],
 
 /* disquss */
 #disqus_thread{
-	padding: 45px 50px;
+	padding: 0 45px 50px;
 	background-color: #fff;
 	border: 1px solid #dadada;
+    border-top: none;
+    margin-top: -1px;
+}
+@media(max-width:767px){
+    #disqus_thread{
+        padding: 0 25px 20px;
+    }
 }
